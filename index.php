@@ -8,7 +8,7 @@ use \App\WebService\ViaCEP;
 //VERIFICA A EXISTENCIA DO CEP NO COMANDO
 if(!isset($argv[1]) || !preg_match('/^\d{8}$/', $argv[1])) {
 
-    die("CEP não definido, por favor revise!\n");
+    die("CEP não definido, por favor revise!!\n");
    
 
 }
