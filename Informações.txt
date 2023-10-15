@@ -1,0 +1,9 @@
+1.Informações sobre o arquivo composer.json:
+
+ - namespace do projeto ('App' será a classe e 'app' será o nome da pasta);
+ - As classes vão ser criadas dentro da pasta 'app';
+ - A primeira classe é a viaCEP. Criamos ela, invocamos seu namespace. Criamos o método consultarCep e passamos
+ a variável $cep;
+ - Em seguida, criamos o arquivo index.php e vamos incluir o arquivo 'autoload.php' do composer. Após isso, definimos um use, 
+ q é a declaração de namespace. Ele informa ao PHP q vc está importando a classe 'ViaCEP' do namespace '\App\WebService.';
+
